@@ -10,9 +10,14 @@ https://drive.google.com/open?id=1KxP-j0TSQ_PY7xkJ4JNRyMnLv7kjRB_e
 
 The image and video dataset in PASCAL VOC 2007 format is available here
 
-https://drive.google.com/open?id=1mLIc1Ybs1rVwzMDuWMwxWUgl7spx2tBB
+Image dataset
 
 https://drive.google.com/open?id=1rgJUEFB4Cmbf9mQVdGPCHGiT4bvh_gDT
+
+Video dataset
+
+https://drive.google.com/open?id=1mLIc1Ybs1rVwzMDuWMwxWUgl7spx2tBB
+
 
 You can find the dataset [here](https://mediatum.ub.tum.de/1487154)
 - `dataset` contains the train and test datset including the labels
