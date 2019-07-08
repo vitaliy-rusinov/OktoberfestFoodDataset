@@ -9,11 +9,11 @@ Online Notebooks to train Faster RCNN and Retinanet models on the dataset using 
 
 Faster RCNN pytorch
 
-https://drive.google.com/open?id=1KxP-j0TSQ_PY7xkJ4JNRyMnLv7kjRB_e
+https://drive.google.com/open?id=1CDQ5cIA8qsdm-OinbfPKM5DuoI6ewvZH
 
 Retinanet Tensorflow
 
-https://drive.google.com/open?id=1CDQ5cIA8qsdm-OinbfPKM5DuoI6ewvZH
+https://drive.google.com/open?id=1KxP-j0TSQ_PY7xkJ4JNRyMnLv7kjRB_e
 
 The image and video dataset in PASCAL VOC 2007 format is available here
 
