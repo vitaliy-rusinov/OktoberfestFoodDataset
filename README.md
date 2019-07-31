@@ -11,7 +11,7 @@ Faster RCNN Pytorch
 
 https://drive.google.com/open?id=1CDQ5cIA8qsdm-OinbfPKM5DuoI6ewvZH
 
-Retinanet Tensorflow
+RetinaNet Tensorflow
 
 https://drive.google.com/open?id=1KxP-j0TSQ_PY7xkJ4JNRyMnLv7kjRB_e
 
