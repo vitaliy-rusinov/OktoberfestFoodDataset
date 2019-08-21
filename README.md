@@ -4,7 +4,7 @@ The data was aquired during Schanzer Almfest at Ingolstadt in 2018 by [IlassAG](
 
 ## Download
 
-Online Notebooks to train Faster RCNN and Retinanet models on the dataset using Google Collaboratory are available here
+Online Notebooks to train Faster RCNN and Retinanet models on the dataset using Google Colaboratory are available here
 
 
 Faster RCNN Pytorch
