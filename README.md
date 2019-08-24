@@ -2,10 +2,24 @@
 The data was aquired during Schanzer Almfest at Ingolstadt in 2018 by [IlassAG](https://www.ilass.com). As a part of a practical at the [Data Mining and Analytics Chair by Prof. Günnemann at TUM](https://www.kdd.in.tum.de) we've been given the task to count objects at checkout. Therefore we annotated the data with bounding boxes and classes to train an object detection network.
 ![Annotated image](images/example_annotated.png)
 
+
 ## Download
 
-Online Notebooks to train Faster RCNN and Retinanet models on the dataset using Google Colaboratory are available here
+You can find the dataset [here](https://mediatum.ub.tum.de/1487154)
+- `dataset` contains the train and test datset including the labels
+  - the labels can be found in `files.txt` (OpenCV style)
+  - `<filename> <number of objects> <classid1> <x1> <y1> <w1> <h1> <classid2> <x2> <y2> <w2> <h2> ...`
+- `models` contains our pretrained tensorflow models (see [Preview.ipynb](Preview.ipynb) for an example usage)
+- `video_data_zipped` contains the raw videos from which the dataset were extracted
 
+The dataset in the PASCAL_VOC format can be found here
+
+https://drive.google.com/open?id=1rgJUEFB4Cmbf9mQVdGPCHGiT4bvh_gDT (images)
+https://drive.google.com/open?id=1mLIc1Ybs1rVwzMDuWMwxWUgl7spx2tBB (video)
+
+In addition, the labels in the format are available in the PASCAL_VOC folder.
+
+Online Notebooks to train Faster RCNN and Retinanet models on the dataset using Google Colaboratory are available here
 
 Faster RCNN Pytorch
 
@@ -15,23 +29,6 @@ RetinaNet Tensorflow
 
 https://drive.google.com/open?id=1KxP-j0TSQ_PY7xkJ4JNRyMnLv7kjRB_e
 
-The image and video dataset in PASCAL VOC 2007 format is available here
-
-Image dataset
-
-https://drive.google.com/open?id=1rgJUEFB4Cmbf9mQVdGPCHGiT4bvh_gDT
-
-Video dataset
-
-https://drive.google.com/open?id=1mLIc1Ybs1rVwzMDuWMwxWUgl7spx2tBB
-
-
-You can find the dataset [here](https://mediatum.ub.tum.de/1487154)
-- `dataset` contains the train and test datset including the labels
-  - the labels can be found in `files.txt` (OpenCV style)
-  - `<filename> <number of objects> <classid1> <x1> <y1> <w1> <h1> <classid2> <x2> <y2> <w2> <h2> ...`
-- `models` contains our pretrained tensorflow models (see [Preview.ipynb](Preview.ipynb) for an example usage)
-- `video_data_zipped` contains the raw videos from which the dataset were extracted
 
 ## Dataset Description
 
