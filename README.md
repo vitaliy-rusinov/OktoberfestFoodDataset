@@ -15,9 +15,10 @@ You can find the dataset [here](https://mediatum.ub.tum.de/1487154)
 The dataset in the PASCAL_VOC format can be found here
 
 https://drive.google.com/open?id=1rgJUEFB4Cmbf9mQVdGPCHGiT4bvh_gDT (images)
+
 https://drive.google.com/open?id=1mLIc1Ybs1rVwzMDuWMwxWUgl7spx2tBB (video)
 
-In addition, the labels in the format are available in the PASCAL_VOC folder.
+In addition, the labels in the PASCAL_VOC format are available in the PASCAL_VOC folder.
 
 Online Notebooks to train Faster RCNN and Retinanet models on the dataset using Google Colaboratory are available here
 
