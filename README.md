@@ -67,12 +67,14 @@ For training object detection models we've been using [tensorflow's Object Detec
 
 Approach | Backbone model | AUC | Example precision@recall
  --- | --- | --- | ---
-[SSD](https://dataserv.ub.tum.de/index.php/s/m1487154/download?path=/models&files=ssd.pb) | Mobilenet | 0.86 / - | 0.85@0.70
-[SSD + FPN](https://dataserv.ub.tum.de/index.php/s/m1487154/download?path=/models&files=ssd_fpn.pb) | Mobilenet | 0.98/0.92 | 0.97@0.97
-[RFCN](https://dataserv.ub.tum.de/index.php/s/m1487154/download?path=/models&files=rfcn.pb) | ResNet-101 | 0.97/0.89 | 0.90@0.95
-Faster RCNN | VGG-16 | 0.98/0.93 | 0.90@0.92
+[SSD](https://dataserv.ub.tum.de/index.php/s/m1487154/download?path=/models&files=ssd.pb) | Mobilenet | 0.86 / - | 0.85@0.70/-
+[SSD + FPN](https://dataserv.ub.tum.de/index.php/s/m1487154/download?path=/models&files=ssd_fpn.pb) | Mobilenet | 0.98/0.92 | 0.97@0.97/-
+[RFCN](https://dataserv.ub.tum.de/index.php/s/m1487154/download?path=/models&files=rfcn.pb) | ResNet-101 | 0.97/0.89 | 0.90@0.95/-
+Faster RCNN | VGG-16 | 0.98/0.93 | -/0.90@0.92
 
-We also used the data from the last two days to evaluate the models trained on the data from the first 9 days, as well as other data splits.
+The first number in the AUC and example columns denotes the result on the small test set, the second
+number - on the test set of data for the last two days (819 images
+for training, 222 images for testing).
 
 ## Code
 The [Evaluation](evaluation) folder contains Jupyter notebooks to evaluate the TensorFlow models.
