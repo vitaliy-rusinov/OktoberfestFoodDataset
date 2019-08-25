@@ -63,7 +63,7 @@ Class Id | Class | Images | Annotations | average quantity
 ![Occurance heat map](images/Occurance_heatmap.png)
 
 ## Benchmark
-In order to train object detection models we used [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) and standalone Pytorch models. We trained several different models and got the best results for the Single Shot Detector with Feature Pyramid Networks (RetinaNet). Our evaluation metric was the area under the precision-recall curve on a test set of 85 images (we ignored the localization as our goal was counting objects).  We also used the data from the last two days to evaluate the models trained on the data from the first 9 days.
+In order to train object detection models, we used [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) and standalone Pytorch models. We trained several different models and got the best results for the Single Shot Detector with Feature Pyramid Networks (RetinaNet). Our evaluation metric was the area under the precision-recall curve (AUC) on a test set of 85 images (we ignored the localization as our goal was counting objects).  We also used the data from the last two days to evaluate the models trained on the data from the first 9 days.
 
 Approach | Backbone model | AUC | Example precision@recall
  --- | --- | --- | --- 
