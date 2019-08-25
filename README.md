@@ -72,7 +72,7 @@ Approach | Backbone model | AUC | Example precision@recall
 [RFCN](https://dataserv.ub.tum.de/index.php/s/m1487154/download?path=/models&files=rfcn.pb) | ResNet-101 | 0.97/0.89 | 0.90@0.95 (0.72@0.90)
 Faster RCNN | VGG-16 | 0.98/0.93 | 0.97@0.90 (0.79@0.90)
 
-The first number in the AUC and example columns denotes the result on the small test set, the second
+The first number denotes the result on the small test set, the second
 number - on the test set of data for the last two days (819 images
 for training, 222 images for testing).
 
