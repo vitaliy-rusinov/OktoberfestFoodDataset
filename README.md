@@ -6,7 +6,7 @@ The data was aquired during Schanzer Almfest at Ingolstadt in 2018 by [IlassAG](
 ## Download
 
 You can find the dataset [here](https://mediatum.ub.tum.de/1487154)
-- `dataset` contains the train and test datset including the labels
+- `dataset` contains the train and test datasets including the labels
   - the labels can be found in `files.txt` (OpenCV style)
   - `<filename> <number of objects> <classid1> <x1> <y1> <w1> <h1> <classid2> <x2> <y2> <w2> <h2> ...`
 - `models` contains our pretrained tensorflow models (see [Preview.ipynb](Preview.ipynb) for an example usage)
