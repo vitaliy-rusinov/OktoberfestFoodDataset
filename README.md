@@ -1,5 +1,5 @@
 # Oktoberfest Food Dataset
-The data was aquired during Schanzer Almfest at Ingolstadt in 2018 by [IlassAG](https://www.ilass.com). As a part of a practical at the [Data Mining and Analytics Chair by Prof. Günnemann at TUM](https://www.kdd.in.tum.de) we've been given the task to count objects at checkout. Therefore we annotated the data with bounding boxes and classes to train an object detection network.
+The data was aquired during Schanzer Almfest at Ingolstadt in 2018 by [IlassAG](https://www.ilass.com). As part of the practical at the [Data Mining and Analytics Chair by Prof. Günnemann at TUM](https://www.kdd.in.tum.de) we were given a task to count objects at checkout. Therefore we annotated the data with bounding boxes and classes to train an object detection network.
 ![Annotated image](images/example_annotated.png)
 
 
@@ -63,7 +63,7 @@ Class Id | Class | Images | Annotations | average quantity
 ![Occurance heat map](images/Occurance_heatmap.png)
 
 ## Benchmark
-For training object detection models we've been using [tensorflow's Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection). We trained several different approaches and got best results for an Single Shot Detector (SSD) with Feature Pyramid Networks (FPN). Our evaluation metric was the area under the precision-recall curve on a test set of 85 images (we ignored the localization as our goal was counting).  We also used the data from the last two days to evaluate the models trained on the data from the first 9 days.
+For training object detection models used [tensorflow's Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection). We trained several different approaches and got best results for an Single Shot Detector (SSD) with Feature Pyramid Networks (FPN). Our evaluation metric was the area under the precision-recall curve on a test set of 85 images (we ignored the localization as our goal was counting).  We also used the data from the last two days to evaluate the models trained on the data from the first 9 days.
 
 Approach | Backbone model | AUC | Example precision@recall
  --- | --- | --- | --- 
