@@ -63,7 +63,7 @@ Class Id | Class | Images | Annotations | average quantity
 ![Occurance heat map](images/Occurance_heatmap.png)
 
 ## Benchmark
-For training object detection models used [tensorflow's Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection). We trained several different approaches and got best results for an Single Shot Detector (SSD) with Feature Pyramid Networks (FPN). Our evaluation metric was the area under the precision-recall curve on a test set of 85 images (we ignored the localization as our goal was counting objects).  We also used the data from the last two days to evaluate the models trained on the data from the first 9 days.
+In order to traing object detection models we used [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) and standalone Pytorch models. We trained several different models and got best results for an Single Shot Detector (SSD) with Feature Pyramid Networks (FPN). Our evaluation metric was the area under the precision-recall curve on a test set of 85 images (we ignored the localization as our goal was counting objects).  We also used the data from the last two days to evaluate the models trained on the data from the first 9 days.
 
 Approach | Backbone model | AUC | Example precision@recall
  --- | --- | --- | --- 
