@@ -85,7 +85,7 @@ The [CreateTFRecordFile](CreateTFRecordFile.ipynb) notebook contains code to con
 The [ShowAnnotations](ShowAnnotations.py) visualizes the bounding boxes of the dataset. Use 'n' for the next image, 'p' for the previous and 'q' to quit. 
 
 ## Authors
-[Vitalii Rusinov](https://github.com/vitaliy-rusinov): Student of Informatics (M.Sc.) at TUM 
+[Vitalii Rusinov](https://github.com/vitaliy-rusinov): Student of Informatics (M.Sc.) at TUM \
 [Alexander Ziller](https://github.com/a1302z): Student of Robotics, Cognition & Intelligence (M.Sc.) at TUM \
 [Julius Hansjakob](https://github.com/polarbart): Student of Informatics (M.Sc.) at TUM \
 
