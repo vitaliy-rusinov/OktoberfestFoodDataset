@@ -66,7 +66,7 @@ Class Id | Class | Images | Annotations | average quantity
 For training object detection models we've been using [tensorflow's Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection). We trained several different approaches and got best results for an Single Shot Detector (SSD) with Feature Pyramid Networks (FPN). Our evaluation metric was the area under the precision-recall curve on a test set of 86 images (as our goal was to count we ignored the localization).  We also used the data from the last two days to evaluate the models trained on the data from the first 9 days, as well as other data splits.
 
 Approach | Backbone model | AUC | Example precision@recall test set 1 | Example precision@recall test set 2
- --- | --- | --- | ---
+ --- | --- | --- | --- | ---
 [SSD](https://dataserv.ub.tum.de/index.php/s/m1487154/download?path=/models&files=ssd.pb) | Mobilenet | 0.86 / - | 0.85@0.70 | -
 [SSD + FPN](https://dataserv.ub.tum.de/index.php/s/m1487154/download?path=/models&files=ssd_fpn.pb) | Mobilenet | 0.98/0.92 | 0.97@0.97 | 0.88@0.90
 [RFCN](https://dataserv.ub.tum.de/index.php/s/m1487154/download?path=/models&files=rfcn.pb) | ResNet-101 | 0.97/0.89 | 0.90@0.95 | 0.72@0.90
