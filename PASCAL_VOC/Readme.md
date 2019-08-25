@@ -12,7 +12,7 @@ Download the images from https://mediatum.ub.tum.de/1487154
 
 Create folder JPEGImages.
 
-In the folders 'large' and 'small' the images should be of size 1200x675 and 1000x562 respectively.
+In the folders 'large' and 'small' the images should be of size 1200x675 and 1000x562, respectively.
 
 In order to recreate the video dataset, one should extract frames corresponding to the annotation files from the provided video files. 
 
