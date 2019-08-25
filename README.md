@@ -1,5 +1,5 @@
 # Oktoberfest Food Dataset
-The data was aquired during Schanzer Almfest at Ingolstadt in 2018 by [IlassAG](https://www.ilass.com). As part of the practical at the [Data Mining and Analytics Chair by Prof. Günnemann at TUM](https://www.kdd.in.tum.de) we were given a task to count objects at checkout. Therefore we annotated the data with bounding boxes and classes to train an object detection network.
+The data was aquired during Schanzer Almfest at Ingolstadt in 2018 by [IlassAG](https://www.ilass.com). As part of a practical at the [Data Mining and Analytics Chair by Prof. Günnemann at TUM](https://www.kdd.in.tum.de) we were given the task to count objects at checkout. Therefore we annotated the data with bounding boxes and classes to train an object detection network.
 ![Annotated image](images/example_annotated.png)
 
 
